@@ -84,9 +84,10 @@ body {
 
 form {
     width: 100%;
-    margin-top: 60px;
+    margin-top: 50px;
     display: flex;
-    /* align-items: center; */
+    align-items: center;
+    gap: 20px;
 }
 
 input {
@@ -95,5 +96,22 @@ input {
     background-color: var(--secondarybackground);
     border: 2px solid var(--purple);
     border-radius: 10px;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+}
 
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    background-color: var(--purple);
+    border-radius: 50px;
+    border: none;
+    font-size: 30px;
+    color: var(--text);
+    cursor: pointer;
 }

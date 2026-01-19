@@ -101,7 +101,7 @@ input {
     font-weight: 900;
 }
 
-button{
+button {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -113,5 +113,48 @@ button{
     border: none;
     font-size: 30px;
     color: var(--text);
+    cursor: pointer;
+}
+
+#tesk-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10p;
+    margin-top: 30px;
+    width: 100%;
+    list-style: none;
+}
+
+.teskItem {
+    width: 100%;
+    display: flex;
+    background-color: var(--secondarybackground);
+    padding: 10px;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tesk {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.tesk input {
+    width: 20px;
+    height: 20px;
+}
+
+
+.tesk p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.teskItem img {
+    width: 24px;
+    height: 24px;
+    margin: 0 10px;
     cursor: pointer;
 }

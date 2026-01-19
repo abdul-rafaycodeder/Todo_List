@@ -6,10 +6,14 @@ const addTask = () => {
 
     if (text) {
         tesks.push({ text: text, completed: false })
-
+        teskInput.value = ""
         updateTesksList()
     }
 };
+
+
+
+
 
 const updateTesksList = () => {
     const tesklist = document.getElementById("tesk-list")
